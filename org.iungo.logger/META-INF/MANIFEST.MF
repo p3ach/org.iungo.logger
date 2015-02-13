@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Logger
+Bundle-SymbolicName: org.iungo.logger
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.iungo.logger.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.iungo.common.api,
+ org.iungo.email.api,
+ org.osgi.framework;version="1.3.0"
+Export-Package: org.iungo.logger.api
+Require-Bundle: org.junit
